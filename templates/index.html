@@ -1,0 +1,50 @@
+<html> 
+	<head>
+        
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<link rel="stylesheet" type="text/css" href="../static/index.css"> 
+
+
+
+
+	</head>
+	
+	<body>
+
+        <form class="grid" action="/result" method="POST">
+
+          {% if name %}
+            <center>
+              <h3 style="color: blue;" class="let_space">Hey! We Have successfully sent Alert for {{name}} Location.</h3>
+            </center> 
+
+          {% endif %}
+
+          <center>
+            <h1 style="color: black;" >Martech Cloud Connectivity Messenger</h1>
+          </center> 
+           
+          <label for="name">Enter Location:</label>
+          <input type="text" id="name" name="name">
+
+          <label for="time">Enter the time period:</label>
+          <input type="text" id="time" name="time">
+
+          <center><input class="file_submit" type="Submit"></center>
+
+        </form>
+
+        
+
+        
+
+        
+        <br>
+        <br>
+        <br>
+
+
+    </body>
+
+</html>
