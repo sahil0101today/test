@@ -19,10 +19,10 @@ def result():
     name = output["name"]
     time_period = output["time"]
 
-    url = "https://graph.facebook.com/v15.0/103067789365055/messages"
+    url = "https://graph.facebook.com/v15.0//messages"
 
     headers = {
-        'Authorization': 'Bearer EAAIIZBK1uBv4BADUEMbHOu98d8N9ZAeu34bSznNBAMX4pe9ZACfbgeUiN1X3DR5CgYR7ZCfisZBZArShxDEtFWDInlmFKbRxqQ112HSZBwagolnmLzkCFZAvERM437dNrgCekqUzWEQ0ZCZCbIOBhpLzrYRkDvOBrf9kkYyXr7HiKOeRxpfrtQXDW0VnwTqrZCokI4fFMEH97ielwZDZD',
+        'Authorization': '',
         'Content-Type': 'application/json'
     }
 
